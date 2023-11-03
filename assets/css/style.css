@@ -127,3 +127,10 @@ label > .checkmark:after {
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+
+.edit-icon {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5rem;
+  transform: translateX(50%) translateY(-50%);
+}
