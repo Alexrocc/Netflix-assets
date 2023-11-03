@@ -1,0 +1,33 @@
+nav > div .navbar-brand,
+.dropdown .nav-link {
+  display: block;
+  width: 100px;
+}
+.dropdown > .nav-link {
+  width: 50px;
+}
+
+nav > div .navbar-brand img,
+.dropdown > .nav-link img {
+  width: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  font-size: 0.85rem !important;
+}
+
+nav ul i {
+  font-size: 1.2rem;
+}
+
+.genres {
+  background-color: black;
+  border-radius: unset;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.no-radius {
+  border-radius: unset !important;
+}
