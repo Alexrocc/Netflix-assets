@@ -31,3 +31,15 @@ nav ul i {
 .no-radius {
   border-radius: unset !important;
 }
+
+.footer-color {
+  color: rgb(148, 145, 145);
+}
+.footer-btn {
+  border-color: rgb(148, 145, 145);
+  color: rgb(148, 145, 145);
+}
+
+.footer-font {
+  font-size: 0.75rem;
+}
