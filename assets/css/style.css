@@ -83,6 +83,47 @@ nav ul i {
 }
 
 .letter-spacing {
-  letter-spacing: 2.5px;
-  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* CHECKBOX */
+label > input {
+  height: 0;
+  width: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+label > input:checked + span {
+  background-color: white;
+}
+
+label > span {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  top: 0;
+  width: 20px;
+  left: 0;
+  border: 2px solid white;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+label > input:checked + .checkmark:after {
+  display: block;
+}
+
+label > .checkmark:after {
+  left: 4px;
+  top: -2px;
+  width: 6px;
+  height: 12px;
+  border: 1px solid #0c113b;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
