@@ -1,3 +1,7 @@
+.background {
+  background-color: rgb(17, 17, 17);
+}
+
 nav > div .navbar-brand,
 .dropdown .nav-link {
   display: block;
@@ -5,6 +9,15 @@ nav > div .navbar-brand,
 }
 .dropdown > .nav-link {
   width: 50px;
+}
+
+nav > div .profile-logo {
+  display: block;
+  width: 120px;
+}
+
+.nav-gradient {
+  background-image: linear-gradient(black, transparent);
 }
 
 nav > div .navbar-brand img,
