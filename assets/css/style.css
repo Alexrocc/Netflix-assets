@@ -61,8 +61,25 @@ nav ul i {
 
 .mega-text {
   color: rgb(238, 238, 238);
-  font-size: 5rem;
+  font-size: 2.2rem;
   font-weight: 400;
+}
+@media screen and (min-width: 576px) {
+  .mega-text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mega-text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .mega-text {
+    font-size: 5rem;
+  }
 }
 
 .dropdown-toggle::after {
@@ -131,6 +148,6 @@ label > .checkmark:after {
 .edit-icon {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px black;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transform: translateX(50%) translateY(-50%);
 }
