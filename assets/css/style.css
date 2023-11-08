@@ -77,6 +77,10 @@ nav ul i {
   border-left: 0.4em solid transparent;
 }
 
+.nav-item .dropdown-toggle::after {
+  margin-left: 0.255em;
+}
+
 .maturity-btn {
   background-color: #333333;
   border-radius: 2px;
